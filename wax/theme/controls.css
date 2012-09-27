@@ -7,7 +7,6 @@ a.wax-fullscreen {
   }
 
 .zoomer,
-  .wax-legend,
   .wax-tooltip {
   display:block;
   position:absolute;
@@ -83,17 +82,12 @@ a.wax-fullscreen {
   z-index:999999999999;
   }
 
-.wax-legends {
-  position:fixed;
-  right:550px;
-  top:150px;
+.wax-legend {
+  position:absolute;
+  right:90px;
+  top:550px;
   z-index:999999;
-  }
-
-.wax-legends .wax-legend {
-  padding:10px;
-  background:#333;
-  color:#fff;
+  font-family: sans-serif;
   }
 
 .wax-tooltip {
@@ -104,9 +98,9 @@ a.wax-fullscreen {
   font-family: sans-serif;
   padding:10px;
   -webkit-user-select:auto;
-  right:100px;
-  top:10px;
-  max-width:300px;
+  right:90px;
+  top:180px;
+  max-width:500px;
   opacity:1;
   -webkit-transition:opacity 150ms;
   -moz-transition:opacity 150ms;
@@ -211,7 +205,9 @@ div.wax-attribution {
   .wax-legend {  
     text-align: left;  
     font-size: 100%;  
-margin-bottom:540px;  
+    margin-bottom:540px;  
+    z-index:99999;
+
     }  
   
 .legend-title{  
@@ -221,14 +217,12 @@ margin-bottom:540px;
     font-size: 90%;  
       
   
-    }  
-  .wax-legend .legend-scale ul {  
+    }  .legend-scale ul {  
     margin: 0;  
     padding: 0;  
     float: left;  
     list-style: none;  
-    }  
-  .wax-legend .legend-scale ul li {  
+    }  .legend-scale ul li {  
     display: block;  
     float: left;  
     width: 40px;  
@@ -236,18 +230,15 @@ margin-bottom:540px;
     text-align: center;  
     font-size: 70%;  
     list-style: none;  
-    }  
-  .wax-legend ul.legend-labels li span {  
+    }  ul.legend-labels li span {  
     display: block;  
     float: left;  
     height: 15px;  
     width: 40px;  
-    }  
-  .wax-legend .legend-source {  
+    }  .legend-source {  
     font-size: 70%;  
     color: #999;  
     clear: both;  
-    }  
-  .wax-legend a {  
+    }  a {  
     color: #777;  
     }    
