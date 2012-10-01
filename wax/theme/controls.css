@@ -100,7 +100,7 @@ a.wax-fullscreen {
   -webkit-user-select:auto;
   right:90px;
   top:180px;
-  max-width:500px;
+  max-width:300px;
   opacity:1;
   -webkit-transition:opacity 150ms;
   -moz-transition:opacity 150ms;
@@ -193,7 +193,7 @@ div.wax-attribution {
 }
 
 .district {
-  font-size: 35px;
+  font-size: 32px;
 }
 
 .percentage{
@@ -203,8 +203,10 @@ div.wax-attribution {
 /* Legend */
 
   .wax-legend {  
-    text-align: left;  
-    font-size: 100%;  
+    text-align: left;
+    position: absolute;
+    font-size: 100%; 
+    margin-right: 900px;
     margin-bottom:540px;  
     z-index:99999;
 
@@ -215,13 +217,14 @@ div.wax-attribution {
     margin-bottom: 8px;  
     font-weight: bold;  
     font-size: 90%;  
-      
+    color: #fff;   
   
     }  .legend-scale ul {  
     margin: 0;  
     padding: 0;  
     float: left;  
     list-style: none;  
+    color: #fff;  
     }  .legend-scale ul li {  
     display: block;  
     float: left;  
@@ -234,11 +237,12 @@ div.wax-attribution {
     display: block;  
     float: left;  
     height: 15px;  
-    width: 40px;  
+    width: 40px;
     }  .legend-source {  
-    font-size: 70%;  
+    font-size: 76%;
+    float: left;  
     color: #999;  
     clear: both;  
     }  a {  
-    color: #777;  
+    color: #888;  
     }    
