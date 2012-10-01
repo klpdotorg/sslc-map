@@ -35,7 +35,7 @@
 
 var cloudmadeUrl = 'http://tile.stamen.com/toner/{z}/{x}/{y}.png',
         cloudmadeAttrib = '<a href="http://maps.stamen.com" target="_blank">Stamen</a>, <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors, <a href="http://klp.org.in" target="_blank">Karnataka Learning Partnership</a>';
-var cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 18, attribution: cloudmadeAttrib});
+var cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 8, attribution: cloudmadeAttrib});
 var tilejson = {
   tilejson: '1.0.0',
   scheme: 'xyz',
